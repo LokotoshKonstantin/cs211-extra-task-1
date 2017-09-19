@@ -33,7 +33,7 @@ double to_24_hour_clock(double hours)
 	}
 	return hours;
 }
-/*
+
 int get_hours(int seconds)
 {
 	int res = 0;
@@ -44,6 +44,7 @@ int get_hours(int seconds)
 	}
 	return res;
 }
+/*
 int get_minutes(int seconds)
 {
 	int res = 0;
