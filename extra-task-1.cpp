@@ -81,7 +81,7 @@ double time_to_utc(int utc_offset, double time)
 }
 
 
-/*
+
 double time_from_utc(int utc_offset, double time)
 {
 	
@@ -92,6 +92,7 @@ double time_from_utc(int utc_offset, double time)
 		res += 24;
 	return (res);
 }
+/*
 double equals(double a, double b)
 {
 	return(abs(a - b) < eps);
