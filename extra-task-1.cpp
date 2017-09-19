@@ -44,7 +44,7 @@ int get_hours(int seconds)
 	}
 	return res;
 }
-/*
+
 int get_minutes(int seconds)
 {
 	int res = 0;
@@ -58,6 +58,7 @@ int get_minutes(int seconds)
 	}
 	return res;
 }
+/*
 int get_seconds(int seconds)
 {
 	int res = 0;
