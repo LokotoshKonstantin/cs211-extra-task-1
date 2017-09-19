@@ -9,6 +9,7 @@ double seconds_difference(double time_1, double time_2)
 	
 }
 
+/*
 double hours_difference(double time_1, double time_2)
 {
 	return (time_2 - time_1) / 3600;
@@ -91,7 +92,7 @@ double time_from_utc(int utc_offset, double time)
 double equals(double a, double b)
 {
 	return(abs(a - b) < eps);
-}
+}*/
 int main()
 {
 	locale::global(std::locale(""));
