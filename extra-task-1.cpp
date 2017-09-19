@@ -58,7 +58,7 @@ int get_minutes(int seconds)
 	}
 	return res;
 }
-/*
+
 int get_seconds(int seconds)
 {
 	int res = 0;
@@ -70,6 +70,7 @@ int get_seconds(int seconds)
 
 	return seconds;
 }
+/*
 double time_to_utc(int utc_offset, double time)
 {
 
